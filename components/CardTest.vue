@@ -3,7 +3,6 @@
     <div class="card-test">
       <h4 class="tittle">{{ title }}</h4>
       <p class="secundary-text">{{ subtext }}</p>
-      <p>Cambio</p>
     </div>
   </div>
 </template>
