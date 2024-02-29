@@ -15,5 +15,5 @@ const { title, subtext } = defineProps({
 </script>
 
 <style scoped>
-@import url("../assets/style-components.css");
+@import url("../../assets/style-components.css");
 </style>
