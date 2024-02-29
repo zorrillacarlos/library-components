@@ -31,8 +31,8 @@ interface TableColumn {
 }
 
 const userData = ref<User[]>([
-  { name: 'Juan', email: 'juan@example.com', age: 30 },
-  { name: 'Maria', email: 'maria@example.com', age: 25 },
+  { name: 'Carlos', email: 'carlos@example.com', age: 30 },
+  { name: 'Juan', email: 'juan@example.com', age: 25 },
   { name: 'Pedro', email: 'pedro@example.com', age: 35 },
 ]);
 
