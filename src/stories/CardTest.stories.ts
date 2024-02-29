@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
-
 import Card from '../../components/CardTest.vue'
 
 const meta: Meta<typeof Card> = {
@@ -9,7 +8,7 @@ const meta: Meta<typeof Card> = {
 export default meta;
 type Story = StoryObj<typeof Card>;
 
-export const Primary: Story = {
+export const CardComponent: Story = {
   render: (args) => ({
     components: { Card },
     setup() {
