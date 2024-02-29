@@ -16,30 +16,17 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import TableContent from './TableContent.vue';
+import TableContent from "./TableContent.vue";
 
-interface User {
-  name: string;
-  email: string;
-  age: number;
-}
-
-interface TableColumn {
-  label: string;
-  field: string;
-}
-
-const userData = ref<User[]>([
-  { name: 'Carlos', email: 'carlos@example.com', age: 30 },
-  { name: 'Juan', email: 'juan@example.com', age: 25 },
-  { name: 'Pedro', email: 'pedro@example.com', age: 35 },
-]);
-
-const tableColumns: TableColumn[] = [
-  { label: 'Name', field: 'name' },
-  { label: 'Email', field: 'email' },
-  { label: 'Age', field: 'age' },
+const userData = [
+  { name: "Carlos", email: "carlos@example.com", age: 30 },
+  { name: "Juan", email: "juan@example.com", age: 25 },
+  { name: "Pedro", email: "pedro@example.com", age: 35 },
 ];
 
+const tableColumns = [
+  { label: "Name", field: "name" },
+  { label: "Email", field: "email" },
+  { label: "Age", field: "age" },
+];
 </script>

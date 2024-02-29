@@ -18,20 +18,18 @@
 </template>
 
 <script setup lang="ts">
-// Define las interfaces TableColumn y User
 export interface TableColumn {
   label: string;
   field: string;
 }
 
 export interface User {
-  [key: string]: any; // Firma de índice
+  [key: string]: any;
   name: string;
   email: string;
   age: number;
 }
 
-// Define las props del componente
 const props = defineProps<{
   columns: TableColumn[];
   items: User[];

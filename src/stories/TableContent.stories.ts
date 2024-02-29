@@ -12,7 +12,6 @@ const Template = (args: any) =>
   defineComponent({
     components: { TableContent },
     setup() {
-      // Aquí se pueden definir datos reactivos o computados si es necesario
       const userData = ref(args.userData);
       return { args, userData };
     },
